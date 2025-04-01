@@ -4,7 +4,7 @@
 int main() {
     char pala[20], sub_pala[20], *pos;
 
-    printf("Ingrese una palabra: ");
+    printf("Ingrese una frase: ");
     fgets(pala, sizeof(pala), stdin);
     pala[strcspn(pala, "\n")] = 0;  
 
