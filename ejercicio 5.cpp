@@ -8,6 +8,6 @@ int main() {
 		
 		longi = strlen(pala);
 		
-		printf("la longitud de la cadena de caracteres es %i", longi);
+		printf("la longitud de la cadena de caracteres es %i", longi-1);
 }
 
